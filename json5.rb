@@ -12,6 +12,6 @@ class Json5 < Formula
   end
 
   def install
-    bin.install 'json5'
+    bin.install 'gojson5'
   end
 end
