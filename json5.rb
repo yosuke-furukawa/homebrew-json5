@@ -1,6 +1,6 @@
 require 'formula'
 
-class Gitnpm < Formula
+class Json5 < Formula
   homepage 'https://github.com/yosuke-furukawa/gojson5/'
 
   if Hardware.is_64_bit?
@@ -12,6 +12,6 @@ class Gitnpm < Formula
   end
 
   def install
-    bin.install 'gojson5'
+    bin.install 'json5'
   end
 end
